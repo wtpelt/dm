@@ -47,7 +47,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~8.2.0",
     "tslint": "~5.17.0",
-    "typescript": "^3.7.3"
+    "typescript": "^3.6.4"
   },
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.",
   "main": "karma.conf.js",
