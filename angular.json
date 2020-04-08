@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/dm-app",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -53,6 +54,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
@@ -118,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dm-app"
+    }
+  },
+  "defaultProject": "dm-app",
+  "cli": {
+    "analytics": "20d9d452-8108-4b07-b6e0-6c5a34946fcd"
+  }
 }

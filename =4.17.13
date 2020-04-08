@@ -1,0 +1,4 @@
++ lodash@4.17.14
+updated 1 package and audited 16907 packages in 23.258s
+found 165 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
