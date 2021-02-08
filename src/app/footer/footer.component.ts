@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { isDate } from 'util';
 
 @Component({
   selector: 'app-footer-root',
@@ -8,6 +7,4 @@ import { isDate } from 'util';
 })
 
 export class FooterComponent {
-  public copyrightYear = new Date().getFullYear();
 }
-
