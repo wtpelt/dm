@@ -116,7 +116,6 @@
       }
     }
   },
-  "defaultProject": "dm-app",
   "cli": {
     "analytics": "20d9d452-8108-4b07-b6e0-6c5a34946fcd"
   }
